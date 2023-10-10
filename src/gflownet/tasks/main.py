@@ -74,8 +74,8 @@ if __name__ == "__main__":
             "lr_decay": 20_000,
         },
         "algo": {
-            "method": "TB",
-            "helper": "TB",
+            "method": "SQL",
+            "helper": "SQL",
             "sampling_tau": 0.99,
             "sample_temp": 1.0,
             "online_batch_size": 64,
@@ -120,7 +120,7 @@ if __name__ == "__main__":
             },
         },
         "task": {
-            "name": "tdc_frag",
+            "name": "seh_frag",
             "helper": "qed_frag",
             "tdc": {
                 "oracle": "qed",
